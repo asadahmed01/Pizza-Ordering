@@ -9,12 +9,14 @@ namespace FinalExam
 {
     public partial class Home : System.Web.UI.Page
     {
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
 
         }
 
+        
         protected void submitName_Click(object sender, EventArgs e)
         {
             string fullName = fullname.Text;
